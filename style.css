@@ -17,6 +17,14 @@
 body {
   font-family: "Karla", sans-serif;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "DM Serif Display", serif;
+}
 
 .header__logos {
   display: flex;
@@ -29,7 +37,6 @@ body {
 }
 
 h1 {
-  font-family: "DM Serif Display", serif;
   font-size: 48px;
   text-align: center;
   line-height: 1;
@@ -39,7 +46,6 @@ h1 {
   color: #fff;
   background-color: var(--Dark-Violet);
   position: relative;
-  
 }
 .hero-section__details {
   padding-top: 88px;
@@ -53,7 +59,7 @@ h1 {
   padding: 0 10px;
   margin-bottom: 32px;
 }
-a[href="insure.com"] {
+a[href="/"] {
   color: inherit;
   border: 2px solid #fff;
   display: inline-block;
@@ -73,4 +79,38 @@ img[src="images/bg-pattern-intro-right-mobile.svg"] {
 img[src="images/bg-pattern-intro-right-mobile.svg"] {
   top: 800px;
   left: 250px;
+}
+
+.features-section h2 {
+  text-align: center;
+  font-size: 46px;
+  margin-top: 2rem;
+  margin-bottom: 86px;
+}
+hr {
+  border: 1px solid #cabbca;
+  margin-top: 136px;
+  width: 150px;
+  margin-left: 114px;
+}
+.features-div {
+  text-align: center;
+  margin-top: 73px;
+}
+.features-div img {
+  margin-bottom: 30px;
+}
+.features-section h3 {
+  text-align: center;
+  font-size: 27px;
+}
+.features-div p {
+  padding: 18px 26px 0;
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+.features-div img {
+  margin-bottom: 30px;
+  margin-top: -14px;
 }
