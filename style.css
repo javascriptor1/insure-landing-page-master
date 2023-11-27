@@ -47,6 +47,7 @@ h1 {
   background-color: var(--Dark-Violet);
   position: relative;
 }
+
 .hero-section__details {
   padding-top: 88px;
   padding-left: 20px;
@@ -93,11 +94,11 @@ img[src="images/bg-pattern-intro-right-mobile.svg"] {
   margin-top: 2rem;
   margin-bottom: 86px;
 }
-hr {
+.features-section hr {
   border: 1px solid #cabbca;
+  margin: 0 auto;
   margin-top: 136px;
   width: 150px;
-  margin-left: 114px;
 }
 .features-div {
   text-align: center;
@@ -141,4 +142,70 @@ hr {
   position: absolute;
   top: 0;
   right: -1px;
+}
+
+.social-media {
+  text-align: center;
+  margin-top: 228px;
+  position: relative;
+}
+.social-media__icons {
+  margin-top: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.social-media > img {
+  position: absolute;
+  top: -88px;
+  left: 3px;
+}
+.social-media hr {
+  border: 1px solid #cabbca;
+  margin-top: 40px;
+  margin-left: 24px;
+  width: 87%;
+}
+
+footer{
+  text-align: center;
+  margin-top: 38px;
+}
+
+footer h3{
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 2px;
+  margin-bottom: 2rem;
+}
+footer a{
+  text-decoration: none;
+  color: inherit;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  margin-bottom: 12px;
+}
+
+ul li:last-child a{
+  margin-bottom: 38px;
+}
+
+
+
+
+
+
+
+
+
+
+/* media query for different views */
+
+@media (min-width: 376px) and (max-width: 1024px) {
+  .hero-section img[src="images/image-intro-mobile.jpg"] {
+    width: 100%;
+  }
 }
