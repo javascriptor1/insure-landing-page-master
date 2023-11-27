@@ -15,7 +15,62 @@
 }
 
 body {
-  /* ### Headings */
-  font-family: "DM Serif Display", serif;
   font-family: "Karla", sans-serif;
+}
+
+.header__logos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px;
+}
+.header__nav {
+  display: none;
+}
+
+h1 {
+  font-family: "DM Serif Display", serif;
+  font-size: 48px;
+  text-align: center;
+  line-height: 1;
+  margin-bottom: 18px;
+}
+.hero-section {
+  color: #fff;
+  background-color: var(--Dark-Violet);
+  position: relative;
+  
+}
+.hero-section__details {
+  padding-top: 88px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
+.hero-section__paragraph {
+  font-size: 16px;
+  line-height: 1.6;
+  padding: 0 10px;
+  margin-bottom: 32px;
+}
+a[href="insure.com"] {
+  color: inherit;
+  border: 2px solid #fff;
+  display: inline-block;
+  padding: 10px 30px;
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 6rem;
+}
+
+img[src="images/bg-pattern-intro-left-mobile.svg"],
+img[src="images/bg-pattern-intro-right-mobile.svg"] {
+  position: absolute;
+  top: 450px;
+}
+img[src="images/bg-pattern-intro-right-mobile.svg"] {
+  top: 800px;
+  left: 250px;
 }
