@@ -52,6 +52,10 @@ img[src="images/bg-pattern-intro-right-desktop.svg"] {
   margin-bottom: 41px;
   text-transform: uppercase;
 }
+.header__nav li a:hover {
+  color: var(--Dark-Violet);
+  font-weight: 700;
+}
 .header__nav li a {
   text-decoration: none;
   color: white;
@@ -62,6 +66,13 @@ img[src="images/bg-pattern-intro-right-desktop.svg"] {
 .header__nav li:last-child {
   padding: 14px;
   border: 2px solid #fff;
+}
+
+.header__nav li:last-child a:hover {
+  color: #fff;
+  background-color: var(--Very-Dark-Violet);
+  border: 2px solid #2b272f;
+  padding: 10px 22px;
 }
 .header__nav {
   display: none;
@@ -123,6 +134,12 @@ h1 {
   margin-bottom: 72px;
   margin-top: 36px;
   padding: 10px 25px;
+}
+.hero-section__details a:hover,
+.how-we-work a:hover {
+  background-color: #fff;
+  color: var(--Very-Dark-Violet);
+  font-weight: 800;
 }
 
 img[src="images/bg-pattern-intro-left-mobile.svg"],
@@ -245,6 +262,9 @@ footer a {
   display: inline-block;
   margin-bottom: 12px;
   color: var(--Very-Dark-Violet);
+}
+footer a:hover {
+  text-decoration: underline;
 }
 
 footer ul li:last-child a {
@@ -477,6 +497,10 @@ footer ul li:last-child a {
     position: relative;
     left: 18px;
     top: 3px;
+    cursor: pointer;
+  }
+  .social-media__icons svg:hover path {
+    fill: #2b272f;
   }
   .social-media hr {
     border: 1px solid #cabbca;
@@ -489,7 +513,7 @@ footer ul li:last-child a {
     left: 0;
     z-index: 4;
   }
-  .social-media-icon-div img[src="images/logo.svg"]{
+  .social-media-icon-div img[src="images/logo.svg"] {
     z-index: 99;
   }
   .footer-nav-div {
@@ -501,7 +525,7 @@ footer ul li:last-child a {
     margin-top: 0;
     gap: 164px;
   }
-  
+
   .footer-nav-div div:last-child {
     margin-left: 38px;
   }
