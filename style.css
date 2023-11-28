@@ -406,22 +406,56 @@ footer ul li:last-child a {
     align-items: center;
     gap: 1rem;
     margin-left: 162px;
+  }
+  .features-div p {
+    padding: 18px 26px 0 0;
+  }
+  .features-div img {
+    margin-top: -9px;
+  }
+  .features-div img[src="images/icon-snappy-process.svg"] {
+    margin-top: -9px;
+    margin-left: 3px;
+  }
+  .hero-section {
+    overflow: hidden;
+  }
+
+  .feature-container-div .features-div:last-child {
+    margin-left: -16px;
+  }
+
+  /* how we work section  */
+
+  .how-we-work {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+    margin-top: 9rem;
+    padding: 50px;
+    width: 78%;
+    margin-left: 166px;
+    margin-top: 163px;
+  }
+  .how-we-work h2 {
+    font-size: 48px;
+    margin-top: 0px;
+    line-height: 1.1;
+    padding: 0 1rem;
+    margin-left: 14px;
+    letter-spacing: 3px;
+    width: 50%;
+  }
+  .how-we-work a {
+    position: relative;
+    top: 18px;
+    left: 298px;
 }
-.features-div p {
-  padding: 18px 26px 0 0;
-  
-}
-.features-div img {
-  margin-top: -9px;
-}
-.features-div img[src="images/icon-snappy-process.svg"] {
-  margin-top: -9px;
-  margin-left: 3px;
+ 
 }
 
-.feature-container-div .features-div:last-child{
-  margin-left: -16px;
-}
+/* special settings for edge cases */
 
 @media (min-width: 376px) and (max-width: 900px) {
   .hero-section img[src="images/image-intro-mobile.jpg"] {
