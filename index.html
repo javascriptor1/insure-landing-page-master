@@ -33,16 +33,29 @@
           <li><a href="">Account</a></li>
           <li><a href="">View plans</a></li>
         </ul>
-        <img src="images/bg-pattern-mobile-nav.svg" alt="">
+        <img src="images/bg-pattern-mobile-nav.svg" alt="" />
       </nav>
     </header>
 
     <section class="hero-section">
-      <div>
-        <img src="images/image-intro-mobile.jpg" alt="family members" />
+      <div class="hero-section__image-div">
+        <picture>
+          <source
+            media="(min-width:1025px)"
+            srcset="images/image-intro-desktop.jpg"
+          />
+          <source
+            media="(min-width:375px)"
+            srcset="images/image-intro-mobile.jpg"
+          />
+          <img src="images/image-intro-mobile.jpg" alt="family members" />
+        </picture>
       </div>
       <div class="hero-section__details">
-        <h1>Humanizing your insurance.</h1>
+        <h1>
+          <hr class="h1-small-line" />
+          Humanizing your insurance.
+        </h1>
         <p class="hero-section__paragraph">
           Get your life insurance coverage easier and faster. We blend our
           expertise and technology to help you find the plan that’s right for
@@ -52,6 +65,8 @@
       </div>
       <img src="images/bg-pattern-intro-left-mobile.svg" alt="" />
       <img src="images/bg-pattern-intro-right-mobile.svg" alt="" />
+      <img src="images/bg-pattern-intro-left-desktop.svg" alt="">
+      <img src="images/bg-pattern-intro-right-desktop.svg" alt="">
     </section>
     <section class="features-section">
       <hr />
