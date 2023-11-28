@@ -418,9 +418,7 @@ footer ul li:last-child a {
   margin-top: -9px;
   margin-left: 3px;
 }
-.features-div img[src="images/icon-people-first.svg"]{
-  /* margin-left: -16px; */
-}
+
 .feature-container-div .features-div:last-child{
   margin-left: -16px;
 }
