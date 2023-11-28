@@ -257,7 +257,7 @@ footer ul li:last-child a {
     position: relative;
     background-color: #fff;
     z-index: 99;
-}
+  }
   .header__nav li {
     margin-bottom: 0px;
     font-size: 24px;
@@ -324,7 +324,7 @@ footer ul li:last-child a {
     width: 112%;
     margin-left: 6px;
     position: relative;
-    top: 2px;
+    top: 0px;
     left: -3px;
   }
 
@@ -372,6 +372,57 @@ footer ul li:last-child a {
     top: -82px;
     z-index: 1;
   }
+
+  .features-section h2 {
+    text-align: left;
+    font-size: 68px;
+    margin: 355px 0 16px 165px;
+    letter-spacing: 1px;
+  }
+  .features-section {
+    position: relative;
+  }
+  .features-section hr {
+    border: 1px solid #cabbca;
+    position: absolute;
+    width: 150px;
+    top: -186px;
+    left: 165px;
+  }
+  .features-div,
+  .features-div h3 {
+    text-align: left;
+  }
+  .features-div {
+    width: 30%;
+  }
+  .features-div:nth-child(2) {
+    margin-left: -10px;
+  }
+
+  .feature-container-div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    margin-left: 162px;
+}
+.features-div p {
+  padding: 18px 26px 0 0;
+  
+}
+.features-div img {
+  margin-top: -9px;
+}
+.features-div img[src="images/icon-snappy-process.svg"] {
+  margin-top: -9px;
+  margin-left: 3px;
+}
+.features-div img[src="images/icon-people-first.svg"]{
+  /* margin-left: -16px; */
+}
+.feature-container-div .features-div:last-child{
+  margin-left: -16px;
 }
 
 @media (min-width: 376px) and (max-width: 900px) {
