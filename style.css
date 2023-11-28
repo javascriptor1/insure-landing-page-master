@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@800&display=swap");
 :root {
   --Dark-Violet: hsl(256, 26%, 20%);
   --Grayish-Blue: hsl(216, 30%, 68%);
@@ -41,24 +41,22 @@ h6 {
 .hamburger-close {
   display: none;
 }
-.header__nav li{
+.header__nav li {
   list-style: none;
   font-size: 21px;
   margin-bottom: 41px;
   text-transform: uppercase;
 }
-.header__nav li a{
+.header__nav li a {
   text-decoration: none;
   color: white;
 }
 .header__nav li:nth-child(3) {
   margin-bottom: 32px;
- 
 }
 .header__nav li:last-child {
   padding: 14px;
   border: 2px solid #fff;
- 
 }
 .header__nav {
   display: none;
@@ -71,10 +69,10 @@ h6 {
   letter-spacing: 2px;
   position: relative;
 }
-img[src="images/bg-pattern-mobile-nav.svg"]{
-position: absolute;
-top: 366px;
-right: 0;
+img[src="images/bg-pattern-mobile-nav.svg"] {
+  position: absolute;
+  top: 366px;
+  right: 0;
 }
 
 h1 {
@@ -201,24 +199,27 @@ img[src="images/bg-pattern-intro-right-mobile.svg"] {
   position: absolute;
   top: -88px;
   left: 3px;
+  z-index: -1;
 }
 .social-media hr {
   border: 1px solid #cabbca;
-  margin-top: 40px;
-  margin-left: 24px;
+  margin: 36px auto 0;
   width: 87%;
 }
 
 footer {
   text-align: center;
   margin-top: 38px;
+  font-weight: 800;
 }
 
 footer h3 {
   text-transform: uppercase;
   font-size: 13px;
   letter-spacing: 2px;
-  margin-bottom: 2rem;
+  margin-bottom: 34px;
+  color: var(--Dark-Grayish-Violet);
+  font-family: "Karla", sans-serif;
 }
 footer a {
   text-decoration: none;
@@ -228,9 +229,10 @@ footer a {
   letter-spacing: 1px;
   display: inline-block;
   margin-bottom: 12px;
+  color: var(--Very-Dark-Violet);
 }
 
-ul li:last-child a {
+footer ul li:last-child a {
   margin-bottom: 38px;
 }
 
